@@ -13,7 +13,7 @@ Sorted list implementations:
 * :class:`SortedKeyList`
 
 """
-# pylint: disable=too-many-lines
+! pylint: disable=too-many-lines
 from __future__ import print_function
 
 import sys
@@ -2644,3 +2644,4 @@ class SortedKeyList(SortedList):
 
 
 SortedListWithKey = SortedKeyList
+ 
